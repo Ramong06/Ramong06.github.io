@@ -9,38 +9,56 @@
   <title>About Me</title>
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/reset.css"/>
-  <link rel="stylesheet" href="./assets/style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css"/>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
     <a class="navbar-brand">
-      RAMON <span id="letter-g">G</span>ARZA
+      <img src="./assets/el-jefe.png" height="125px" alt="ElJefeLogo">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" id="navlink" href="./index.html">Homepage</a>
-        <a class="nav-item nav-link" id="navlink" href="./portfolio.html">Portfolio</a>
-        <a class="nav-item nav-link" id="navlink" href="./contact.html">Contact</a>
+        <a class="nav-item nav-link active" id="navlink" href="./index.html">HOMEPAGE</a>
+        <a class="nav-item nav-link" id="navlink" href="./portfolio.html">PORTFOLIO</a>
+        <a class="nav-item nav-link" id="navlink" href="./contact.html">CONTACT</a>
       </div>
     </div>
 </nav> 
 
-<div class="row my-row-hero">
-  <div class="hero-image">
-      <img src="assets/wedday3.JPG" class="img-fluid" width="100%" alt="wedding-day-pic"/>
-      <div class="hero-text">
-        <h2 style="font-size: 28px" color="whitesmoke">WEB DEVELOPER. GAMER. MUSICIAN</h2>
-      </div>
+<div class="container">
+  <div class="row justify-content-center my-row">
+    <div class="col-4">
+      <img class="wed-day" src="./assets/sideview.JPG" height="300" width="300" alt="wedding-day-pic-side-view">
+    </div>
+    <div class="col-6" id="bio-column">
+      <p id="bio">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quos animi doloribus? 
+      Natus minus sunt laudantium doloremque veniam, ipsum assumenda pariatur perspiciatis ipsam! 
+      Praesentium, alias eveniet quod animi aspernatur voluptas!
+    </p>
   </div>
-</div>
-
+    <div class="row">
+      <div class="col">
+          <!--Social Media Section-->
+          <div class="social-buttons">
+            <ul class="social-media-group">
+            <a href="https://github.com/Ramong06"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitch.tv/achilles5406"><i class="fab fa-twitch"></i></a>
+            <a href="https://www.linkedin.com/in/ramon-garza-908611199/"><i class="fab fa-linkedin-in"></i></a>
+          </ul>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
