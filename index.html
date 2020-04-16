@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, intitial scale=1.0"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
   <!--Title, Bootstrap and Favicon links-->
   <title>About Me</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -22,6 +21,7 @@
 </head>
 
 <body>
+  <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
     <a class="navbar-brand">
       <img src="./assets/el-jefe.png" height="125px" alt="ElJefeLogo">
@@ -37,11 +37,11 @@
       </div>
     </div>
 </nav> 
-
+<!--Picture and Bio-->
 <div class="container">
   <div class="row justify-content-center my-row">
     <div class="col-md-4 col-sm-6 col-xs-6">
-      <img class="wed-day" src="./assets/sideview.JPG" height="300" width="300" alt="wedding-day-pic-side-view">
+      <img class="wed-day" src="./assets/sideview.JPG" height="300" width="300" alt="wedding-day-pic-side-view" class="img-fluid" width="100%">
     </div>
     <div class="col-md-6 col-sm-6 col-xs-6 id="bio-column">
       <p id="bio">
@@ -50,19 +50,24 @@
       Praesentium, alias eveniet quod animi aspernatur voluptas!
     </p>
   </div>
-    <div class="row">
-      <div class="col-md-12 col-sm-8 col-xs-8">
-          <!--Social Media Section-->
-          <div class="social-buttons">
-            <ul class="social-media-group">
-            <a href="https://github.com/Ramong06"><i class="fab fa-github"></i></a>
-            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.twitch.tv/achilles5406"><i class="fab fa-twitch"></i></a>
-            <a href="https://www.linkedin.com/in/ramon-garza-908611199/"><i class="fab fa-linkedin-in"></i></a>
-          </ul>
+    <!--Social Media Section-->
+    <footer class="footer">
+    <div class="container">
+      <div class="row my-row-social">
+        <div class="col-md-12 col-xl col-sm-8 col-xs-8">
+            <div class="social-buttons">
+              <ul class="social-media-group">
+              <a href="https://github.com/Ramong06"><i class="fab fa-github"></i></a>
+              <a h  ref="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.twitch.tv/achilles5406"><i class="fab fa-twitch"></i></a>
+              <a href="https://www.linkedin.com/in/ramon-garza-908611199/"><i class="fab fa-linkedin-in"></i></a>
+            </ul>
+        </div>
       </div>
     </div>
-  </div>
+    </div>
+    </footer>
+  <!--Scripts for dropdown toolbar-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

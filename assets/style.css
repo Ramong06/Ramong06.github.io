@@ -38,10 +38,6 @@ body {
     font-variant-caps: "Lato";
 }
 
-.clearfix {
-    overflow: auto;
-}
-
 
 #myname {
     font-family: sans-serif;
@@ -55,22 +51,11 @@ body {
     color: #3131e9;
 }
 
-.hero-image {
-    width: 100%;
-    filter: brightness(60%);
-}
-
-.hero-text {
-    text-align: right;
+.footer {
     position: absolute;
-    bottom: 2%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: whitesmoke;
-}
-
-h2 {
-    color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .social-buttons a{
