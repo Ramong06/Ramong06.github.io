@@ -1,6 +1,10 @@
 body {
-    margin: 0px;
+    margin: 3px;
     background-color: black;
+}
+
+.navbar {
+    margin: 0em;
 }
 
 .navbar-brand {
