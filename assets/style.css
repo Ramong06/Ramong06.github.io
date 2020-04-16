@@ -27,6 +27,7 @@ body {
 .my-row {
     padding-top: 20px;
     margin-left: 25px;
+    text-align: left;
 }
 
 #bio {
@@ -52,10 +53,10 @@ body {
 }
 
 .footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: 15px;
 }
 
 .social-buttons a{
