@@ -54,8 +54,11 @@ body {
 }
 
 .footer {
-    text-align: center;
-    padding-right: 65px;
+    font-family: "Great Vibes";
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    margin-top: 25px;
 }
 
 .social-buttons a{
