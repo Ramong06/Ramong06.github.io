@@ -55,8 +55,8 @@ body {
 .footer {
     bottom: 0;
     width: 100%;
-    text-align: center;
     margin-top: 15px;
+    padding-left: 35%;
 }
 
 .social-buttons a{
