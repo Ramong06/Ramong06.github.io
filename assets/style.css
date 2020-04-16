@@ -22,6 +22,7 @@ body {
 
 .wed-day {
     border-radius: 50%;
+    text-align: left;
 }
 
 .my-row {
@@ -34,7 +35,7 @@ body {
     font-size: 25px;
     font-family: "Lato";
     color: whitesmoke;
-    text-align: center;
+    text-align: left;
     padding-top: 25px;
     font-variant-caps: "Lato";
 }
@@ -54,7 +55,7 @@ body {
 
 .footer {
     text-align: center;
-    padding-right: 50px;
+    padding-right: 65px;
 }
 
 .social-buttons a{
