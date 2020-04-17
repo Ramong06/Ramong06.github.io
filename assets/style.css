@@ -76,7 +76,7 @@ body {
     font-size: 16px;
     font-family: "Great Vibes";
     color: whitesmoke;
-    text-align: center;
+    text-align: left;
 }
 
 #footer {
@@ -90,5 +90,86 @@ body {
 }
 
 /*Contacts Page CSS*/
+
+p {
+    color: whitesmoke;
+    font-family: "Lato";
+    font-size: 16px;
+}
+
+label {
+    color: whitesmoke;
+    font-family: "Lato";
+}
+
+#contact-me {
+    color: whitesmoke;
+    font-family: "Lato";
+}
+
+#message {
+    color: whitesmoke;
+    font-family: "Lato";
+    font-size: 22px;
+}
+
+#sendbtn {
+    color: whitesmoke;
+}
+
+.btn {
+    background-color: #4848eb;
+    color: whitesmoke;
+}
+
+.btn-floating {
+    color: #3131e9;
+}
+
+.social-buttons a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 8px;
+    padding-top: 10%;
+    margin-top: -10%;
+  }
+
+  .social-buttons a::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg,rgb(216, 220, 228)rgba(0, 0, 0, 0.315));
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease-in;
+  }
+
+  .social-buttons a:hover::before{
+    transform: scale(0);
+  }
+
+  .social-buttons a i{
+    transition: 0.3s ease-in;
+  }
+
+  .social-buttons a:hover i{
+    background: linear-gradient(45deg,#22a6b3,rgb(0, 102, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2.2);
+  }
+
+  .social-media-group {
+      text-align: right;
+      top: 10px;
+  }
 
 
