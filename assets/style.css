@@ -25,7 +25,9 @@ body {
 }
 
 .wed-day {
-    border-radius: 50%;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 10px;
     text-align: left;
 }
 
@@ -35,13 +37,22 @@ body {
     text-align: left;
 }
 
+.bio-story {
+    font-size: 18px;
+    font-family: "Lato";
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 25px;
+    text-align: center;
+}
+
 #bio {
     font-size: 25px;
     font-family: "Lato";
     color: whitesmoke;
     text-align: left;
     padding-top: 25px;
-    font-variant-caps: "Lato";
+    text-align: center;
 }
 
 
@@ -57,55 +68,22 @@ body {
     color: #3131e9;
 }
 
-.footer {
-    font-family: "Great Vibes";
-    bottom: 0;
-    width: 100%;
-    color: whitesmoke;
-    margin-top: 25px;
+#row-bottom {
+    padding-bottom: 85px;
 }
 
-.social-buttons a{
-    display: inline-flex;
-    text-decoration: none;
-    font-size: 18px;
-    width: 60px;
-    height: 60px;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin: 0 8px;
-  }
-  
-  .social-buttons a::before{
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(45deg,#22a6b3,#30336b);
-    border-radius: 50%;
-    z-index: -1;
-    transition: 0.3s ease-in;
-  }
-  
-  .social-buttons a:hover::before{
-    transform: scale(0);
-  }
-  
-  .social-buttons a i{
-    transition: 0.3s ease-in;
-  }
-  
-  .social-buttons a:hover i{
-    background: linear-gradient(45deg,#22a6b3,#30336b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transform: scale(2.2);
-  }
-
-#copyright {
+.copyright {
     font-size: 10px;
     font-family: "Great Vibes";
     color: whitesmoke;
+}
+
+#footer {
+    color: whitesmoke!important;
+    background-color: black;
+    font-size: 14px;
+}
+
+#el-jefe {
+    color: #4848eb
 }
