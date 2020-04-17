@@ -73,9 +73,10 @@ body {
 }
 
 .copyright {
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Great Vibes";
     color: whitesmoke;
+    text-align: center;
 }
 
 #footer {
@@ -87,3 +88,7 @@ body {
 #el-jefe {
     color: #4848eb
 }
+
+/*Contacts Page CSS*/
+
+
