@@ -89,7 +89,7 @@ body {
     color: #4848eb
 }
 
-/*Contacts Page CSS*/
+/*-------Contacts Page CSS-------*/
 
 p {
     color: whitesmoke;
@@ -172,4 +172,19 @@ label {
       top: 10px;
   }
 
+  /*-------Portfolio Page CSS-------*/
 
+  h1 {
+      color: whitesmoke;
+      font-family: "Lato";
+  }
+
+  .portfolio {
+      border-radius: 5%;
+      border
+  }
+
+  #portfolio-links {
+      margin-top: 8%;
+      margin-bottom: -10%
+  }
