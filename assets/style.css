@@ -11,24 +11,8 @@ body {
     float: left;
 }
 
-#navbarNavAltMarkup {
-    font-family: "Lato";
-    font-size: 20px;
-}
-
-#navlink:hover {
-    color: #4848eb;
-}
-
 .container {
     background: black;
-}
-
-.wed-day {
-    border-style: solid;
-    border-color: whitesmoke;
-    border-width: 10px;
-    text-align: left;
 }
 
 .my-row {
@@ -37,13 +21,85 @@ body {
     text-align: left;
 }
 
-.bio-story {
+.main-container {
+    margin-top: 45px;
+}
+
+/*KeyFrames*/
+
+ @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+    /*HOMEPAGE animation*/
+  }
+    .main-container, .contact-info {
+      animation-duration: 0.9s;
+      transition-timing-function: ease-in;
+      animation-fill-mode: both;
+    }
+
+    .main-container {
+      animation-name: fadeIn;
+    }
+
+    .main-container, .contact-info {
+      animation-name: fadeInUp;
+    }
+
+
+
+#bio-story {
     font-size: 18px;
     font-family: "Lato";
     color: whitesmoke;
     text-align: left;
     padding-top: 25px;
     text-align: center;
+}
+
+#wed-day {
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 10px;
+    text-align: left;
+}
+
+#navbarNavAltMarkup {
+    font-family: "Lato";
+    font-size: 20px;
+}
+
+#navlink:hover {
+    color: #4848eb;
 }
 
 #bio {
@@ -102,19 +158,10 @@ label {
     font-family: "Lato";
 }
 
-#contact-me {
-    color: whitesmoke;
-    font-family: "Lato";
-}
-
-#message {
-    color: whitesmoke;
-    font-family: "Lato";
-    font-size: 22px;
-}
-
-#sendbtn {
-    color: whitesmoke;
+.contact-info {
+    margin-right: 370px;
+    margin-top: 135px;
+    text-align: center;
 }
 
 .btn {
@@ -124,6 +171,10 @@ label {
 
 .btn-floating {
     color: #4848eb;
+}
+
+.locateMe, .callMe, .emailMe {
+    color: whitesmoke;
 }
 
 .social-buttons a{
@@ -172,6 +223,36 @@ label {
       top: 10px;
   }
 
+  
+#contact-me {
+    color: whitesmoke;
+    font-family: "Lato";
+}
+
+#message {
+    color: whitesmoke;
+    font-family: "Lato";
+    font-size: 22px;
+}
+
+#sendbtn {
+    color: whitesmoke;
+}
+
+#homeAddress:hover,
+#contactPhone:hover,
+#email:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+#homeAddress,
+#contactPhone,
+#email {
+  transition: transform 0.5s ease;
+}
+
   /*-------Portfolio Page CSS-------*/
 
   h1 {
@@ -181,7 +262,6 @@ label {
 
   .portfolio {
       border-radius: 5%;
-      border
   }
 
   #portfolio-links {
