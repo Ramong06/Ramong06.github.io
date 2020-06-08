@@ -95,6 +95,10 @@ body {
     color: #4848eb;
 }
 
+#navBar {
+    background-color: white;
+}
+
 #bio {
     font-size: 25px;
     font-family: "Lato";
