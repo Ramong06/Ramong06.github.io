@@ -22,9 +22,9 @@
 
 <body>
   <!--Navbar with El Jefe Logo-->
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand">
-      <img src="./assets/el-jefe.png" height="125px" alt="ElJefeLogo">
+      <img src="">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,38 +39,48 @@
 </nav> 
 
 <div class="container-fluid">
-            <!--FIRST ROW: HEADER-->
-        <div class="row row-style justify-content-center" id="header">
-            <header>
-                <h1>PORTFOLIO</h1>
-            </header>
+        <!--FIRST ROW: HEADER-->
+    <div class="row row-style justify-content-center" id="header">
+        <h1 class="portfolio">PORTFOLIO</h1>
+    </div>
+    <!--Portfolio Links-->
+    <div class="container portfolio-links">
+      <div class="row justify-content-center">
+        <div class="col-md-4" id="homeAddress">
+          <input type="image" id="coverLetter" src="./assets/cover-letter-icon.png" alt="cover-letter-icon" height="250" width="250" />
+          <h3 class="locateMe">Cover Letter</h3>            
         </div>
-        <!--Second Row-->
-        <div class="row row-style justify-content-center" id="portfolio-links">
-            <div class="col-md-4 col-sm-6 justify-content-center">
-                <a href="website" class="cover-letter">
-                    <img class="portfolio"  width="100%" src="./assets/cover-letter-image.jpg"  alt="image with scrambled words with the words Cover Letter emphasized in front">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 justify-content-center">
-                <a href="website" class="resume-pic">
-                    <img class="portfolio"  width="100%" height="56.8%" mr="15%" src="./assets/resume-circle.jpg"  alt="image with scrambled words with the words Resume emphasized in front">
-                </a>
-            </div>
+        <div class="col-md-4"  id="contactPhone">
+          <input type="image" id="resumeIcon" src="./assets/resume-icon.png" alt="resume-with-laptop" height="250" width="250"  />
+          <h3 class="callMe">Resume</h3>
         </div>
-        <!--Second Row-->
-        <div class="row row-style justify-content-center">
-            <div class="col-md-4 col-sm-6 justify-content-center">
-                <a href="website" class="cover-letter">
-                    <img class="portfolio"  width="100%" src="./assets/projects-image.jpg"  alt="image with scrambled words with the words Cover Letter emphasized in front">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 justify-content-center">
-                <a href="website" class="resume-pic">
-                    <img class="portfolio"  width="100%" height="90%" mr="15%" src="./assets/hobbies-mgs.jpg"  alt="image with scrambled words with the words Resume emphasized in front">
-                </a>
-            </div>
+        <div class="col-md-4"  id="email">
+          <input type="image" id="projectIcon" src="./assets/projects-icon.jpeg" alt="computer-screen-with-game-project" height="250" width="250" />
+          <h3 class="emailMe">Projects</h3>
         </div>
+      </div>
+    </div>
+    <!--Cover Letter Modal-->>
+    <div id="modal1" class="coverLetterInfo center-align modal">
+      <div class="modal-content">
+        <h1 class="coverLetterHeader"></h1>
+        <p class="coverLetterBody"></p>
+      </div>
+    </div>
+    <!--Resume Modal-->>
+    <div id="modal1" class="resumeInfo center-align modal">
+      <div class="modal-content">
+        <h1 class="resumeHeader"></h1>
+        <p class="resumeBody"></p>
+      </div>
+    </div>
+    <!--Projects Modal-->>
+    <div id="modal1" class="projectsInfo center-align modal">
+      <div class="modal-content">
+        <h1 class="projectsHeader"></h1>
+        <p class="projectDescription"></p>
+      </div>
+    </div>
 </div>
 
 <!--FOOTER-->
@@ -84,10 +94,10 @@
       <!--Social Media Section-->
       <div class="social-buttons">
         <ul class="social-media-group">
-          <a href="https://github.com/Ramong06"><i class="fab fa-github"></i></a>
-          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.twitch.tv/achilles5406"><i class="fab fa-twitch"></i></a>
-          <a href="https://www.linkedin.com/in/ramon-garza-908611199/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Ramong06"><i class="fab fa-github" style="color: black;"></i></a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram" style="color: black"></i></a>
+          <a href="https://www.twitch.tv/achilles5406"><i class="fab fa-twitch" style="color: black"></i></a>
+          <a href="https://www.linkedin.com/in/ramon-garza-908611199/"><i class="fab fa-linkedin-in" style="color: black"></i></a>
         </ul>
       </section>
         </div>
