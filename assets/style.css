@@ -2,6 +2,14 @@ body {
     margin: 3px;
 }
 
+.index-body { 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(7, 6, 6, 0.767)), url('background-image.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .navbar {
     margin: 0em;
 }
@@ -18,6 +26,14 @@ body {
 
 .main-container {
     margin-top: 45px;
+}
+
+.copyright {
+  font-size: 16px;
+  font-family: "Great Vibes";
+  text-align: left;
+  padding-top: 5%;
+  color: whitesmoke;
 }
 
 /*KeyFrames*/
@@ -78,11 +94,11 @@ body {
     text-align: left;
     padding-top: 25px;
     text-align: center;
+    color: whitesmoke;
 }
 
 #wed-day {
-    border-style: solid;
-    border-width: 10px;
+    box-shadow: 5px 6px #201f1f75;
     text-align: left;
 }
 
@@ -96,7 +112,7 @@ body {
 }
 
 #navBar {
-    background-color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(7, 6, 6, 0.863)), url('background-image.jpeg');
 }
 
 #bio {
@@ -105,18 +121,22 @@ body {
     text-align: left;
     padding-top: 25px;
     text-align: center;
+    color: whitesmoke;
 }
 
 #row-bottom {
     padding-bottom: 85px;
 }
 
-.copyright {
-    font-size: 16px;
-    font-family: "Great Vibes";
-    text-align: left;
-    padding-top: 5%;
+#index-copyright {
+  font-size: 16px;
+  font-family: "Great Vibes";
+  text-align: left;
+  padding-top: 20%;
+  color: whitesmoke; 
 }
+
+
 
 #footer {
     font-size: 14px;
@@ -150,7 +170,7 @@ label {
     align-items: center;
     position: relative;
     margin: 0 8px;
-    padding-top: 8%;
+    padding-top: 28%;
     margin-top: -10%;
   }
 
