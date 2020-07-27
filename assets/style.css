@@ -112,7 +112,7 @@ body {
 }
 
 #navBar {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(7, 6, 6, 0.863)), url('background-image.jpeg');
+  background-color: transparent;
 }
 
 #bio {
