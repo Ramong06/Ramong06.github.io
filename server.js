@@ -18,7 +18,15 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 app.get('/', (req, res) => {
-    res.render('main', data);
+    res.render('home');
+});
+
+app.get('/portfolio', (req, res) => {
+    res.render('portfolio');
+});
+
+app.get('/contactme', (req, res) => {
+    res.render('contactme');
 });
 
 // Start our server so that it can begin listening to client requests.
