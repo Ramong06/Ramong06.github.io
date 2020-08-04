@@ -1,0 +1,24 @@
+{
+  "name": "website.github.io",
+  "version": "1.0.0",
+  "description": "Description\r This website is the first draft of my personal portfolio.  I created this portfolio as a student of the University of Texas at University of Houston Coding Bootcamp.  It's purpose is to showcase my skills as a new coder and expose the areas I require help in.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramong06/website.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramong06/website.github.io/issues"
+  },
+  "homepage": "https://github.com/Ramong06/website.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  }
+}
